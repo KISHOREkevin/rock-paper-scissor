@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    font-family: 'Righteous', cursive;
+    user-select: none;
+
+}
+body{
+    background:#2b002b ;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.container{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.container .screen{
+    background: black;
+    margin: 30px  300px;
+    padding: 30px 30px;
+    color: green;
+    border-radius: 10px;
+    
+}
+.container span{
+    padding: 10px 95px;
+    background:#370037;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+#computerscore{
+    
+    margin: -150px 50px;
+    font-size: 20px;
+   
+}
+#playerscore{
+    float: right;
+    margin: -150px 50px;
+    font-size: 20px;
+    
+    
+    
+}
+#result{
+    color:green;
+    text-align: center;
+    animation: res .5s infinite linear alternate;
+    text-shadow: 0 0 20px green;
+   
+    
+}
+
+@keyframes res {
+    from{
+        text-shadow: 0 0 50px green,0 0 70px green;
+    }to{
+        text-shadow: 0 0 24px green;
+    }
+}
+.container span:active{
+    background:#ffff00 ;
+    color: black;
+    
+}
+
+
+audio{
+   width: 100px;
+   height: 20px;
+}
+@media (max-width : 768px) {
+        .container{
+            font-size: 15px;
+        }
+        #playerscore,#computerscore{
+            font-size: 15px;
+        }
+        .container .screen{
+            margin: 15px 200px;
+        }
+}
+@media (max-width : 425px) {
+
+    .container{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .container .screen{
+        margin: 0px;
+        
+    }
+    
+    #playerscore,#computerscore{
+        font-size: 15px;
+        margin: -60px 50px;
+    }
+    .container span{
+       padding: 20px 40px ;
+       margin-bottom: -20px;
+       
+    }
+    
+}
+
+@media (max-width : 375px){
+    .container span{
+        padding: 15px 30px;
+    }
+    #playerscore,#computerscore{
+        
+        margin: -60px 30px;
+    }
+}
+@media (max-width : 320px){
+    .container span{
+        padding: 15px 20px;
+    }
+    #playerscore,#computerscore{
+        
+        margin: -60px 10px;
+    }
+}
+@media (max-width : 390px){
+    .container span{
+        padding: 15px 25px;
+    }
+}
+@media (max-width:820px){
+    .container .screen{
+        margin: 0px;
+        
+    }
+}
+@media (max-width : 540px){
+    .container span{
+        padding: 15px 50px;
+    }
+    #playerscore,#computerscore{
+        
+        margin: -60px 10px;
+    }
+}
+@media (max-width : 280px){
+    .container span{
+        padding: 15px 10px;
+    }
+    #playerscore,#computerscore{
+        
+        margin: -60px 5px;
+    }
+}
+@media (max-width : 414px){
+    .container span{
+        padding: 15px 30px;
+    }
+}
+@media (width: 1024px){
+    .container span{
+        padding: 15px 30px;
+    }
+    .container .screen{
+        margin: 30px 20px;
+        font-size: 20px;
+        
+    }
+}
