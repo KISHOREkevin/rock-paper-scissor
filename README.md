@@ -1,2 +1,5 @@
 # rock-paper-scissor
-Its a rock paper scissor game built with HTML,CSS, and Javascript...
+I had completed the project rock, paper, scissor using HTML, CSS, Javasript
+
+Check out the link below 👇
+https://kishorekevin.github.io/rock-paper-scissor/
